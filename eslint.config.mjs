@@ -22,7 +22,6 @@ export default withNuxt(
       'unicorn/filename-case': ['error', {
         cases: {
           kebabCase: true,
-          snakeCase: true,
         },
         ignore: ['README.md'],
       }],

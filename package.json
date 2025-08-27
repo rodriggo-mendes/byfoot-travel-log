@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^5.2.1",
+    "@iconify-json/material-symbols": "^1.2.33",
     "@iconify-json/tabler": "^1.2.22",
     "@mdi/font": "^7.4.47",
     "@nuxt/eslint": "^1.9.0",
@@ -29,6 +30,8 @@
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^16.1.5",
+    "sass": "^1.91.0",
+    "sass-embedded": "^1.91.0",
     "vite-plugin-vuetify": "^2.1.2",
     "vuetify": "^3.9.6"
   },

@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     transpile: ['vuetify'],
   },
   compatibilityDate: '2025-07-15',
-  css: ['./app/assets/css/main.css'],
+  css: ['@/assets/style/main.css', '@/assets/style/global.scss'],
   devtools: { enabled: true },
   eslint: {
     config: {
@@ -28,6 +28,15 @@ export default defineNuxtConfig({
     './app/plugins/vuetify',
   ],
   vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+            @use "@/assets/style/_colors.scss" as colors;
+          `,
+        },
+      },
+    },
     vue: {
       template: {
         transformAssetUrls,
