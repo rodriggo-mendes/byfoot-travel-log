@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# ByFoot Travel Log
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt project based on [Syntax's Full Stack App Idea](https://www.youtube.com/watch?v=DK93dqmJJYg&ab_channel=Syntax) to practice Vue.js
 
 ## Setup
 
