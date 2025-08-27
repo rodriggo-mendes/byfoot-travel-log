@@ -2,8 +2,8 @@ import antfu from '@antfu/eslint-config';
 
 import withNuxt from './.nuxt/eslint.config.mjs';
 
-export default withNuxt(antfu(
-  {
+export default withNuxt(
+  antfu({
     vue: true,
     typescript: true,
     stylistic: {
@@ -11,8 +11,7 @@ export default withNuxt(antfu(
       semi: true,
       quotes: 'single',
     },
-  },
-  {
+  }, {
     rules: {
       'ts/consistent-type-definitions': ['error', 'type'],
       'no-console': ['warn'],
@@ -28,5 +27,5 @@ export default withNuxt(antfu(
         ignore: ['README.md'],
       }],
     },
-  },
-));
+  }),
+);
